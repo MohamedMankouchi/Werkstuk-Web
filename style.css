@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Inter:wght@300&family=Roboto&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: 'white';
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 7px 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+.topnav a.icon {
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: grey;
+    transition: background-color 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.active {
+    background-color: 'white';
+    color: white;
+    border-bottom: 1px solid black;
+    padding: 12px 0px 10px;
+}
+
+.hero {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    animation-name: heroww;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+
+}
+
+@keyframes heroww {
+    0% {
+        margin-top: -40px;
+    }
+
+
+}
+
+.hero img {
+    margin: 40px 0px;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.hero-text h2 {
+    font-size: 20px;
+
+}
+
+.hero-text h1 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text a {
+    color: black;
+    text-decoration: none;
+    background-color: royalblue;
+    border: 5px solid royalblue;
+    border-radius: 50px;
+    margin: 20px 30px;
+    padding: 10px 0px;
+    display: inline-block;
+    width: 50%;
+}
+
+.aboutandcarreer {
+    background-color: #f5f5f7;
+}
+
+
+.aboutme {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f5f7;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.aboutme h2 {
+    font-size: 20px;
+}
+
+.aboutme h1 {
+    font-size: 49px;
+}
+
+.info {
+    text-align: left;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 10%;
+    padding: 38px 28px;
+}
+
+.me :first-child {
+    margin-top: 50px;
+    padding-top: 70px;
+    color: grey;
+
+}
+
+.carreer h2 {
+    padding-left: 20px;
+    font-family: 'Inter', sans-serif;
+    color: grey;
+}
+
+.stats {
+    font-family: 'Inter', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/* Code for gradient found on https://fossheim.io/writing/posts/css-text-gradient & https://uigradients.com/#SweetMorning*/
+.stats h1 {
+    font-size: 48px;
+    background: #FF5F6D;
+    background: -webkit-linear-gradient(to bottom, #FFC371, #FF5F6D);
+    background: linear-gradient(to bottom, #FFC371, #FF5F6D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.stats h3 {
+    font-size: 15px;
+    margin: -20px 0px 0px 0px;
+
+}
+
+.ratio {
+    margin-right: 20px;
+    border: 5px solid white;
+    border-radius: 30px;
+    width: 100px;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+
+
+.win {
+    border: 5px solid white;
+    border-radius: 30px;
+    width: 100px;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.lost {
+    margin-right: 20px;
+    border: 5px solid white;
+    border-radius: 30px;
+    width: 100px;
+    padding: 5px 10px;
+    background-color: white;
+
+}
+
+.xp {
+    border: 5px solid white;
+    border-radius: 30px;
+    width: 100px;
+    padding: 5px 10px;
+    background-color: white;
+
+}
+
+
+.lost,
+.xp {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.gallery h1 {
+    font-family: 'Inter', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+.gallery img {
+    border-radius: 30px;
+    object-fit: cover;
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}

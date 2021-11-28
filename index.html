@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a href="#home" class="active"> <strong>Mohamed Mankouchi</strong></a>
+        <div id="myLinks">
+            <a href="#about">About Me</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#carreer">Carreer</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-list" aria-hidden="true"></i>
+        </a>
+    </div>
+    <header>
+        <div class="hero">
+            <img src="./images/Profile.jpg" alt="Profile">
+            <div class="hero-text">
+                <h2>Mohamed Mankouchi</h2>
+                <h1>Ju-Jitsu Athlete</h1>
+                <p>Septuple Belgian Champion <br> And</br> Vice-European Champion </p>
+                <a href="#">Book a lesson</a>
+            </div>
+        </div>
+    </header>
+    <div class="aboutandcarreer">
+        <section id="about">
+            <div class="aboutme">
+                <div class="me">
+                    <h2>About Myself</h2>
+                    <h1>Belgium #1 Athlete.</h1>
+                </div>
+
+                <div class="info">
+                    <h2>10 Years of experience in different disciplins: Ju-Jitsu, Fighting and Karate</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum consequatur, minus
+                        voluptatem commodi repudiandae rem asperiores minima quia similique molestiae! Odit praesentium
+                        ex
+                        architecto ipsam reiciendis! Tempora, esse accusantium.</p>
+                </div>
+            </div>
+        </section>
+        <section id="carreer">
+            <div class="carreer">
+                <h2>My Carreer</h2>
+                <div class="stats">
+                    <div class="ratio">
+                        <h1>93%</h1>
+                        <h3>Win Ratio</h3>
+                    </div>
+                    <div class="win">
+                        <h1>86</h1>
+                        <h3>Matches Won</h3>
+                    </div>
+                    <div class="lost">
+                        <h1>5</h1>
+                        <h3>Matches Lost</h3>
+                    </div>
+                    <div class="xp">
+                        <h1>73</h1>
+                        <h3>Medals</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="gallery">
+        <div class="gallery">
+            <h1>Gallery</h1>
+            <div class="p1">
+                <img src="/images/Hnet-image.gif" alt="gif">
+            </div>
+            <div class="p2">
+                <img src="/images/Hnet-image (1).gif" alt="gif">
+            </div>
+            <div class="p3">
+                <img src="/images/IMG-0544.jpg" alt="gif">
+            </div>
+            <div class="p4">
+                <img src="/images/IMG-0546.jpg" alt="gif">
+            </div>
+            <div class="p5">
+                <img src="/images/IMG-0547.jpg" alt="gif">
+            </div>
+            <div class="p6">
+                <img src="/images/IMG-0548.jpg" alt="gif">
+            </div>
+
+        </div>
+    </section>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
